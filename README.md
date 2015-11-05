@@ -1,2 +1,3 @@
 # StationExplorer
-Climsoft sample app
+Sample application for new Climsoft Developers
+(requires Climsoft sample database)
