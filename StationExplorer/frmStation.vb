@@ -17,7 +17,7 @@
         Dim totalRows As Integer
 
         Try
-            sql = "SELECT stationId, stationName FROM station LIMIT 100;"
+            sql = "SELECT stationId, stationName FROM station LIMIT 50;"
             dataAdapter = New MySql.Data.MySqlClient.MySqlDataAdapter(sql, frmLogin.dbConnection)
             dataAdapter.Fill(ds, "station")
             listViewToPopulate.Columns.Clear()
